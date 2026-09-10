@@ -20,7 +20,7 @@ export function Hero() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-brand-navy/10 via-transparent to-brand-navy/[0.06]" />
       </div>
       <div className="container-shell relative z-10">
-        <div className="relative py-16 lg:flex lg:min-h-[calc(100svh-5rem)] lg:w-[55%] lg:flex-col lg:justify-center lg:py-12 lg:pr-8 xl:pr-12">
+        <div className="relative pb-6 pt-16 sm:pb-8 lg:flex lg:min-h-[calc(100svh-5rem)] lg:w-[55%] lg:flex-col lg:justify-center lg:py-12 lg:pr-8 xl:pr-12">
           <div className="absolute inset-y-0 left-[-12%] hidden w-56 rounded-full bg-brand-green/10 blur-3xl lg:block" />
           <p className="eyebrow">The easiest way to rent a dumpster on the Emerald Coast</p>
           <h1 className="mt-4 max-w-4xl font-heading text-5xl uppercase leading-[0.96] tracking-[0.05em] text-balance sm:text-6xl lg:text-6xl xl:text-[4.25rem]">
@@ -53,7 +53,7 @@ export function Hero() {
             {siteConfig.tagline}
           </p>
         </div>
-        <div className="relative aspect-[4/3] overflow-hidden lg:hidden">
+        <div className="relative left-1/2 aspect-[4/3] w-screen -translate-x-1/2 overflow-hidden lg:hidden">
           <Image
             src="/hero-image.png"
             alt="ProSite dumpster at a coastal home"

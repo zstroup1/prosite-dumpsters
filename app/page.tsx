@@ -139,7 +139,7 @@ export default function HomePage() {
         <div className="container-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <SectionHeading
             eyebrow="Frequently asked questions"
-            title="Answers renters usually need before booking"
+            title="Answers clients usually need before booking"
             description="FAQ language stays neutral where operating policies have not been provided yet."
           />
           <FAQ items={faqs} />
