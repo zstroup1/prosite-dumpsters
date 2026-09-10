@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0F2747"/>
+  <rect x="70" y="70" width="1060" height="490" rx="18" fill="#122E54" stroke="#8BC53F" stroke-width="4"/>
+  <rect x="120" y="120" width="180" height="180" rx="10" fill="#8BC53F"/>
+  <text x="210" y="235" text-anchor="middle" fill="#0F2747" font-family="Arial, sans-serif" font-size="132" font-weight="700">P</text>
+  <text x="120" y="390" fill="white" font-family="Arial Narrow, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="8">
+    PROSITE DUMPSTERS
+  </text>
+  <text x="120" y="470" fill="#8BC53F" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="10">
+    ON SITE. ON TIME.
+  </text>
+  <text x="120" y="530" fill="#D7E0E5" font-family="Arial, sans-serif" font-size="28">
+    Dumpster rentals from Destin to Panama City Beach
+  </text>
+</svg>

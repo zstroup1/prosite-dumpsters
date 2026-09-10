@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/commercial-dumpster-rental",
+      "regex": "^/commercial\\-dumpster\\-rental(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/commercial\\-dumpster\\-rental(?:/)?$"
+    },
+    {
+      "page": "/construction-dumpster-rental",
+      "regex": "^/construction\\-dumpster\\-rental(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/construction\\-dumpster\\-rental(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/dumpster-rentals",
+      "regex": "^/dumpster\\-rentals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dumpster\\-rentals(?:/)?$"
+    },
+    {
+      "page": "/dumpster-rentals/15-yard",
+      "regex": "^/dumpster\\-rentals/15\\-yard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dumpster\\-rentals/15\\-yard(?:/)?$"
+    },
+    {
+      "page": "/dumpster-rentals/20-yard",
+      "regex": "^/dumpster\\-rentals/20\\-yard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dumpster\\-rentals/20\\-yard(?:/)?$"
+    },
+    {
+      "page": "/dumpster-rentals/30-yard",
+      "regex": "^/dumpster\\-rentals/30\\-yard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dumpster\\-rentals/30\\-yard(?:/)?$"
+    },
+    {
+      "page": "/dumpster-rentals/contractors-developers",
+      "regex": "^/dumpster\\-rentals/contractors\\-developers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dumpster\\-rentals/contractors\\-developers(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/residential-dumpster-rental",
+      "regex": "^/residential\\-dumpster\\-rental(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/residential\\-dumpster\\-rental(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/service-areas",
+      "regex": "^/service\\-areas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas(?:/)?$"
+    },
+    {
+      "page": "/service-areas/30a-fl",
+      "regex": "^/service\\-areas/30a\\-fl(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas/30a\\-fl(?:/)?$"
+    },
+    {
+      "page": "/service-areas/destin-fl",
+      "regex": "^/service\\-areas/destin\\-fl(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas/destin\\-fl(?:/)?$"
+    },
+    {
+      "page": "/service-areas/miramar-beach-fl",
+      "regex": "^/service\\-areas/miramar\\-beach\\-fl(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas/miramar\\-beach\\-fl(?:/)?$"
+    },
+    {
+      "page": "/service-areas/panama-city-beach-fl",
+      "regex": "^/service\\-areas/panama\\-city\\-beach\\-fl(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas/panama\\-city\\-beach\\-fl(?:/)?$"
+    },
+    {
+      "page": "/service-areas/santa-rosa-beach-fl",
+      "regex": "^/service\\-areas/santa\\-rosa\\-beach\\-fl(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas/santa\\-rosa\\-beach\\-fl(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/terms-of-service",
+      "regex": "^/terms\\-of\\-service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-of\\-service(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

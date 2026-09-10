@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white font-body text-brand-ink antialiased;
+  background-image:
+    radial-gradient(circle at top, rgba(139, 197, 63, 0.08), transparent 25%),
+    linear-gradient(to bottom, #ffffff, #f8fbfc 52%, #ffffff);
+}
+
+a,
+button,
+input,
+select,
+textarea,
+summary {
+  @apply outline-offset-4 transition-colors duration-200;
+}
+
+::selection {
+  @apply bg-brand-green text-brand-navy;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-space {
+  @apply py-16 sm:py-20 lg:py-24;
+}
+
+.card-surface {
+  @apply rounded-md border border-brand-sand/80 bg-white shadow-card;
+}
+
+.eyebrow {
+  @apply text-sm font-semibold uppercase tracking-[0.26em] text-brand-green;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
